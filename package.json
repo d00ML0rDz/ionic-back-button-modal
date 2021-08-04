@@ -3,12 +3,13 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
+    "@capacitor/android": "3.1.2",
     "@capacitor/app": "1.0.2",
     "@capacitor/core": "3.1.2",
     "@capacitor/haptics": "1.0.2",
     "@capacitor/keyboard": "1.0.2",
-    "@ionic/react": "^5.5.0",
-    "@ionic/react-router": "^5.5.0",
+    "@ionic/react": "^6.0.0-beta.2",
+    "@ionic/react-router": "^6.0.0-beta.2",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.6.3",
@@ -40,10 +41,10 @@
     "workbox-streams": "^5.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "serve": "ionic serve",
+    "copy": "ionic cap copy",
+    "sync": "ionic cap sync",
+    "open": "ionic cap open android"
   },
   "eslintConfig": {
     "extends": [
